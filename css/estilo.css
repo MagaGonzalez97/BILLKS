@@ -1,0 +1,378 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.headerInicio{
+    display: flex;
+    flex-direction: column-reverse;
+    background-image: url(../img/dog-friendly-cafes-singapore.jpg);
+    align-items:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position-y: -200px;
+    height: 650px;
+    justify-content: space-between;
+}
+
+.headerInicio h1{
+    font-size: 6rem;
+    color:black;
+    font-family:fantasy;
+    margin-bottom: 50px;
+    /*font-weight: bold;*/
+
+}
+
+.headerInicio nav{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    grid-template-areas: 
+    "fotoInicio lista";
+}
+
+.headerInicio nav ul{
+    display: flex;
+    flex-direction: row-reverse;
+    grid-area: lista;
+}
+
+.headerInicio nav img{
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+    justify-self: flex-start;
+    grid-area: fotoInicio;
+}
+
+.headerInicio nav ul li{
+    margin-right: 20px;
+    margin-top: 50px;
+    align-self: center;
+    width: 130px;
+    height: auto;
+    font-size: 1rem;
+    font-weight: bold;
+    list-style: none;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a{
+    text-decoration:underline;
+    color: white;
+}
+
+.nosotros {
+    display: flex;
+    background-color:white;
+    height: 400px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.nosotros h2{
+    color: black;
+    font-family: fantasy;
+    font-size: 2rem;
+    width: 300px;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+    align-self: center;
+    justify-self: center;
+}
+
+.nosotros p{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 400px;
+    margin-top: 30px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    align-self: center;
+    font-size: 1.25rem;
+    text-align: justify;
+
+}
+
+.nosotros img{
+    height: 350px;
+    width: 500px;
+    margin: 50px 50px 50px 50px;
+}
+
+.recomendados{
+    display: flex;
+    flex-direction:column;
+    background-color: rgb(231, 231, 204) ;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 600px;
+}
+.recomendados h2{
+    color: black;
+    font-family:fantasy;
+    font-size: 2rem;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+    align-self: center;
+    justify-self: center;
+
+}
+
+.recomendados section{
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+.recomendados section div{
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+
+
+.recomendados section div div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.recomendados section div div h6{
+font-size: 1.25rem;
+align-self: center;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.recomendados section div div p{
+ text-align: center;
+}
+
+
+    /*list-style: none;
+    width: 300px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:rgb(179, 40, 68);
+    font-family: cursive;*/
+
+.recomendados section div img{
+    width: 300px;
+    height: 200px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+/*.footer {
+    display: flex;
+    background-color: black;
+    height: 220px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer div{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer div h6{
+    color: white;
+    font-size: 1.5rem;
+
+}
+
+.footer div img{
+    width: 100px;
+    height: 100px;
+}
+
+.footer p{
+    color: white;
+}*/
+
+/*FOOTER*/
+
+#footer{
+    background-color:black;
+    border: #E5E8E8;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1rem;
+    grid-area: footer;
+    height: 250px;
+    
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.filaUno{
+    border-bottom: white 2px solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.logoDireccion{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-content: center;
+}
+
+.logoDireccion img{
+    width: 100px;
+    height: 100px;
+}
+
+.logoDireccion p{
+    margin: 10px 10px 10px 10px;
+    color: white;
+}
+
+.seguinos{
+    margin: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;   
+    color: white;
+}
+
+.seguinos img{
+    margin-left: 10px;
+    height: 25px;
+    width: 25px;
+}
+
+.filaDos{
+    margin: 15px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.filaDos p{
+    margin-left: 10px;
+    font-size: 1rem;
+    color: white;
+}
+
+.logosTarjetas{
+    margin-right: 10px;
+}
+
+.logosTarjetas img{
+    margin-left: 5px;
+    width: 25px;
+    height: 25px;
+}
+
+
+
+/*CONTACTO*/
+
+.headerContacto{
+    display: flex;
+    flex-direction: column-reverse;
+    background-image: url(../img/CaféParis.jfif);
+    align-items:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 500px;
+    background-position-y: -300px;
+    justify-content: space-around;
+    /*opacity: 0.8;*/
+    
+}
+
+.headerContacto h1{
+    font-size: 4rem;
+    color:white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    /*font-weight: bold;*/
+
+}
+
+.headerContacto h2{
+    font-size: 2rem;
+    color:white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    /*font-weight: bold;*/
+}
+
+.headerContacto nav ul{
+    display: flex;
+    flex-direction: row;
+}
+.headerContacto nav ul li{
+    margin-right: 20px;
+    margin-top: 50px;
+    align-self: center;
+    width: 130px;
+    height: auto;
+    background-color: black;
+    list-style: none;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* GALERIA */
+
+.galeria{
+    height: 500px;
+    width: 100px;
+}
+
+header{
+    display: flex;
+    background-image: url(../img/Cafecito);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -150px;
+    justify-items: center;
+}
+
+header nav ul li{
+margin-right: 20px;
+margin-top: 50px;
+width: 150px;
+height: auto;
+font-size: 1rem;
+font-weight: bold;
+list-style: none;
+text-align: center;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#carouselExampleControls{
+    margin: 100px;
+
+}
